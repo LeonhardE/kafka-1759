@@ -8,8 +8,7 @@ logs_folders = [
     "Loghub-datasets",
     "var-logs"
 ]
-json_root_folder = os.path.join(
-    os.getcwd(), 'kafka-scalibility-test/json-logs')
+json_root_folder = os.path.join(os.path.dirname(__file__), 'json-logs')
 logs_folders = [os.path.join(logs_folder_prefix, p) for p in logs_folders]
 
 seq = 0
@@ -20,6 +19,7 @@ def log2json(fp):
     global seq
     tf = os.path.join(json_root_folder, f'{seq}.json')
     seq += 1
+    print("File: ", seq)
     with open(tf, 'w', encoding='utf-8') as json_file:
         dic_lis = []
         with open(fp, 'r', encoding='utf-8') as log_file:
@@ -40,7 +40,7 @@ def log2json(fp):
                   fp=json_file,
                   indent=4,
                   separators=(',', ': '))
-
+    
 
 def recur(path):
     if seq > max_seq:
