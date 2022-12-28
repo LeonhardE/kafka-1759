@@ -7,6 +7,7 @@ import pickle
 import matplotlib.pyplot as plt
 
 
+
 class data_loader:
     def __init__(self, target):
         self.res = []
