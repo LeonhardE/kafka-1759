@@ -4,11 +4,10 @@ from myparser import parser
 
 def consume():
     args = parser.parse_args()
-    print(args)
     consumer = KafkaConsumer(args.topic,
                             bootstrap_servers = '10.1.0.1:9092', 
                             auto_offset_reset="latest",
-                            consumer_timeout_ms=2000)
+                            consumer_timeout_ms=int(args.consumer_timeout_ms))
     total_time = 0
     consume_start = None
     for record in consumer:
