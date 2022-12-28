@@ -1,12 +1,14 @@
 import config
 import time
 from kafka import KafkaConsumer
-
+from argparse import parser
 
 def consume():
-    consumer = KafkaConsumer(config.topic,
+    args = parser.parse_args()
+
+    consumer = KafkaConsumer(args.topic,
                             bootstrap_servers = '10.1.0.1:9092', 
-                            auto_offset_reset="earliest",
+                            auto_offset_reset="latest",
                             consumer_timeout_ms=2000)
     total_time = 0
     consume_start = None

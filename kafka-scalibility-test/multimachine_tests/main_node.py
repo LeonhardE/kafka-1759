@@ -25,11 +25,11 @@ def init_machines():
         init_machine(i)  
 
 class Tester:
-    def __init__(self, topic, records, producers, consumers): 
-        config.topic = topic
-        config.total_records = records
-        config.total_producers = producers
-        config.total_consumers = consumers
+    def __init__(self, topic, total_records, producers, consumers): 
+        self.topic = topic
+        self.total_records = total_records
+        self.total_producers = producers
+        self.total_consumers = consumers
         self.producers_time = [0 for _ in range(config.total_producers)]
         self.consumers_time = [0 for _ in range(config.total_consumers)]
         self.total_bytes = None
@@ -65,7 +65,7 @@ class Tester:
                 git pull;\
                 pip install -r requirements.txt;\
             ')
-        return client.run(f'python3 kafka-1759/kafka-scalibility-test/multimachine_tests/{script_name}.py')
+        return client.run(f'python3 kafka-1759/kafka-scalibility-test/multimachine_tests/{script_name}.py --topic {self.topic} --total_records {self.total_records} --total_producers {self.total_producers} --total_consumers {self.total_consumers}')
         
     def produce(self, seq):
         res = self.run_script(seq, 'producer_node').stdout
@@ -75,9 +75,9 @@ class Tester:
         self.total_bytes = float(res[1])
         
     def consume(self, seq):
-        res = self.run_script(seq, 'consumer_node')
+        res = self.run_script(seq, 'consumer_node').stdout
         print('this is consumer results', res)
-        self.producers_time[seq - config.total_producers] = float(res.stdout)
+        self.producers_time[seq - config.total_producers] = float(res)
 
 def test_temp():
     def run_script(machine_number, script_name):
@@ -93,7 +93,7 @@ def test_temp():
     config.total_producers = 1
     config.total_consumers = 1
     config.total_records = 10000
-    results = run_script(2, 'consume_node')
+    results = run_script(2, 'consumer_node')
     print(results.stdout)
    
 def test6():
@@ -109,6 +109,7 @@ def test6():
         x.append(res[2])
         total_records = int(total_records * 1.5)
     import numpy as np
+    print(x, yProduce, yConsume)
     print(np.polyfit(x, yProduce, 1))
     plt.clf()   
     plt.title('1 producer and 1 consumer')
@@ -120,5 +121,5 @@ def test6():
     plt.savefig(f'{test_name}.png')
     
 if __name__ == "__main__":
-    test_temp()
+    test6()
 
