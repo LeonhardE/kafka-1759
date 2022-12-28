@@ -4,7 +4,8 @@ from kafka import KafkaConsumer
 
 
 def consume():
-    consumer = KafkaConsumer(config.topic, 
+    consumer = KafkaConsumer(config.topic,
+                            bootstrap_servers = '10.1.0.1:9092', 
                             auto_offset_reset="earliest",
                             consumer_timeout_ms=2000)
     total_time = 0
