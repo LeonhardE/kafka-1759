@@ -24,7 +24,15 @@ def init_machine(machine_number):
                 git pull;\
                 pip install -r requirements.txt;\
             ')
-    
+
+def reinstall_repo(seq):
+    client = connect_host(seq)
+    client.run(f'rm -rf kafka-1759;\
+                git clone https://github.com/LeonhardE/kafka-1759.git;\
+                cd kafka-1759/;\
+                pip install -r requirements.txt;\
+            ')        
+
 def init_machines(seq):
     for i in range(seq):
         init_machine(i)  
@@ -110,5 +118,7 @@ def test6():
     plt.savefig(f'{test_name}.png')
     
 if __name__ == "__main__":
+    # for i in range(len(hostnames)):
+    #     reinstall_repo(i)
     test6()
 
