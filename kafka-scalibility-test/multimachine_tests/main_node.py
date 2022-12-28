@@ -4,13 +4,19 @@ import threading
 import time
 import matplotlib.pyplot as plt
 
+local_mode = True
+
 # only these machines have pip and we don't have sudo apt-install permission
 hostnames = [f'10.1.0.{i}' for i in range(2, 5)] + ['10.1.0.7', '10.1.0.9', '10.1.0.11', '10.1.0.13']
 password = 'ece1759'
 
 def connect_host(seq):
-    print(f'Connecting to luozhonghao@{hostnames[seq]}')
-    return Connection(f'luozhonghao@{hostnames[seq]}', connect_kwargs={'password': password})
+    if local_mode:
+        print(f'Connecting to luozhonghao@10.1.0.1')
+        return Connection(f'luozhonghao@10.1.0.1', connect_kwargs={'password': password})
+    else:
+        print(f'Connecting to luozhonghao@{hostnames[seq]}')
+        return Connection(f'luozhonghao@{hostnames[seq]}', connect_kwargs={'password': password})
 
 def init_machine(machine_number):
     client = connect_host(machine_number)

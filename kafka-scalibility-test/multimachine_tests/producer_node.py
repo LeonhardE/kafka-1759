@@ -2,7 +2,7 @@ from data_loader import data_loader
 import time
 from kafka import KafkaProducer
 import pickle
-from argparse import parser
+from myparser import parser
 
 def produce():
     args = parser.parse_args()

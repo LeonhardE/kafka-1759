@@ -1,10 +1,10 @@
 import time
 from kafka import KafkaConsumer
-from argparse import parser
+from myparser import parser
 
 def consume():
     args = parser.parse_args()
-
+    print(args)
     consumer = KafkaConsumer(args.topic,
                             bootstrap_servers = '10.1.0.1:9092', 
                             auto_offset_reset="latest",
