@@ -1,4 +1,3 @@
-import config
 import time
 from kafka import KafkaConsumer
 from argparse import parser

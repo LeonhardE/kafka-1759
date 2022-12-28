@@ -1,5 +1,4 @@
 from data_loader import data_loader
-from config import total_records, total_producers, total_consumers, topic
 import time
 from kafka import KafkaProducer
 import pickle

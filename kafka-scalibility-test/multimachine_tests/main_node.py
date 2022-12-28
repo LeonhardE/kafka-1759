@@ -1,5 +1,4 @@
 from fabric import Connection
-import config
 import pickle
 import threading
 import time
@@ -30,19 +29,19 @@ class Tester:
         self.total_records = total_records
         self.total_producers = producers
         self.total_consumers = consumers
-        self.producers_time = [0 for _ in range(config.total_producers)]
-        self.consumers_time = [0 for _ in range(config.total_consumers)]
+        self.producers_time = [0 for _ in range(self.total_producers)]
+        self.consumers_time = [0 for _ in range(self.total_consumers)]
         self.total_bytes = None
         
     def run(self):
         producer_threads = list()
         consumer_threads = list()
         machine_number = 0
-        while machine_number < config.total_producers:
+        while machine_number < self.total_producers:
             producer_threads.append(threading.Thread(target=self.produce, args=[machine_number]))
             machine_number += 1
             
-        while machine_number < config.total_consumers + config.total_producers:
+        while machine_number < self.total_consumers + self.total_producers:
             consumer_threads.append(threading.Thread(target=self.consume, args=[machine_number]))
             machine_number += 1
         
@@ -77,24 +76,8 @@ class Tester:
     def consume(self, seq):
         res = self.run_script(seq, 'consumer_node').stdout
         print('this is consumer results', res)
-        self.producers_time[seq - config.total_producers] = float(res)
+        self.producers_time[seq - self.total_producers] = float(res)
 
-def test_temp():
-    def run_script(machine_number, script_name):
-        client = connect_host(machine_number)
-        client.run(f'cd kafka-1759/;\
-                git pull;\
-                pip install -r requirements.txt;\
-            ')
-        return client.run(f'python3 kafka-1759/kafka-scalibility-test/multimachine_tests/{script_name}.py')
-    
-    test_name = 'test6'
-    config.topic = test_name
-    config.total_producers = 1
-    config.total_consumers = 1
-    config.total_records = 10000
-    results = run_script(2, 'consumer_node')
-    print(results.stdout)
    
 def test6():
     test_name = 'test6'
