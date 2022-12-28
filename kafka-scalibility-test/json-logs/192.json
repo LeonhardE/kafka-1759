@@ -1,0 +1,1802 @@
+[
+    {
+        "timestamp": "2015-03-23 09:06:47,870",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.metrics2.impl.MetricsConfig",
+        "message": " loaded properties from hadoop-metrics2.properties\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:48,215",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl",
+        "message": " Scheduled snapshot period at 10 second(s).\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:48,215",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl",
+        "message": " MapTask metrics system started\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:48,235",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.YarnChild",
+        "message": " Executing with tokens:\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:48,236",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.YarnChild",
+        "message": " Kind: mapreduce.job, Service: job_1427088391284_0055, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@19b81d10)\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:48,739",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.YarnChild",
+        "message": " Sleeping for 0ms before retrying again. Got null now.\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:50,523",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.YarnChild",
+        "message": " mapreduce.cluster.local.dir for child: /tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0055\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:54,861",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.conf.Configuration.deprecation",
+        "message": " session.id is deprecated. Instead, use dfs.metrics.session-id\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:56,871",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Task",
+        "message": "  Using ResourceCalculatorProcessTree : [ ]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:57,601",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " Processing split: Paths:/HiBench/Hive/Input-comp/uservisits/part-00001:0+48500062,/HiBench/Hive/Input-comp/uservisits/part-00014:0+48556731InputFormatClass: org.apache.hadoop.mapred.SequenceFileInputFormat\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:57,884",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.log.PerfLogger",
+        "message": " <PERFLOG method=deserializePlan from=org.apache.hadoop.hive.ql.exec.Utilities>\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:57,884",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.Utilities",
+        "message": " Deserializing MapWork via kryo\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,048",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.log.PerfLogger",
+        "message": " </PERFLOG method=deserializePlan start=1427101617884 end=1427101619048 duration=1164 from=org.apache.hadoop.hive.ql.exec.Utilities>\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,213",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.io.compress.zlib.ZlibFactory",
+        "message": " Successfully loaded & initialized native-zlib library\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,214",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.io.compress.CodecPool",
+        "message": " Got brand-new decompressor [.deflate]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,229",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.io.compress.CodecPool",
+        "message": " Got brand-new decompressor [.deflate]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,229",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.io.compress.CodecPool",
+        "message": " Got brand-new decompressor [.deflate]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,229",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.io.compress.CodecPool",
+        "message": " Got brand-new decompressor [.deflate]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,421",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.io.compress.CodecPool",
+        "message": " Got brand-new decompressor [.deflate]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,421",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.io.compress.CodecPool",
+        "message": " Got brand-new decompressor [.deflate]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,422",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.io.compress.CodecPool",
+        "message": " Got brand-new decompressor [.deflate]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,422",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.io.compress.CodecPool",
+        "message": " Got brand-new decompressor [.deflate]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,425",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.io.HiveContextAwareRecordReader",
+        "message": " Processing file hdfs://172.31.17.135:8120/HiBench/Hive/Input-comp/uservisits/part-00001\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,427",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.conf.Configuration.deprecation",
+        "message": " map.input.file is deprecated. Instead, use mapreduce.map.input.file\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,427",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.conf.Configuration.deprecation",
+        "message": " map.input.start is deprecated. Instead, use mapreduce.map.input.start\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,427",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.conf.Configuration.deprecation",
+        "message": " map.input.length is deprecated. Instead, use mapreduce.map.input.length\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,427",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " numReduceTasks: 96\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,963",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " (EQUATOR) 0 kvi 26214396(104857584)\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,964",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " mapreduce.task.io.sort.mb: 100\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,964",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " soft limit at 83886080\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,964",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " bufstart = 0; bufvoid = 104857600\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,964",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " kvstart = 26214396; length = 6553600\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:06:59,994",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,001",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.mr.ExecMapper",
+        "message": " conf classpath = [file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0055/container_1427088391284_0055_01_000033/, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/etc/hadoop/, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/hadoop-nfs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/hadoop-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/hadoop-common-2.6.0-tests.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/hamcrest-core-1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-net-3.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-httpclient-3.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/httpclient-4.2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jersey-json-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/api-asn1-api-1.0.0-M20.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-math3-3.1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-digester-1.8.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/guava-11.0.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jettison-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/stax-api-1.0-2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/httpcore-4.2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-configuration-1.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jsr305-1.3.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/activation-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/java-xmlbuilder-0.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-cli-1.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jets3t-0.9.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jsp-api-2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/snappy-java-1.0.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jaxb-api-2.2.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/slf4j-api-1.7.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-collections-3.2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jasper-runtime-5.5.23.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/junit-4.11.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-beanutils-1.7.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/paranamer-2.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/curator-recipes-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-codec-1.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-el-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/mockito-all-1.8.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jetty-util-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-beanutils-core-1.8.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-compress-1.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/curator-client-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jsch-0.1.42.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/gson-2.2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-logging-1.1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/htrace-core-3.0.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/xz-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/apacheds-kerberos-codec-2.0.0-M15.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jasper-compiler-5.5.23.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/curator-framework-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/servlet-api-2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/avro-1.7.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/api-util-1.0.0-M20.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-xc-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/xmlenc-0.52.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/hadoop-annotations-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/hadoop-auth-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/zookeeper-3.4.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jetty-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/apacheds-i18n-2.0.0-M15.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-lang-2.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/log4j-1.2.17.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/hadoop-hdfs-nfs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/hadoop-hdfs-2.6.0-tests.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/hadoop-hdfs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/guava-11.0.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jsr305-1.3.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-cli-1.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jsp-api-2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jasper-runtime-5.5.23.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-codec-1.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-el-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jetty-util-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/xml-apis-1.3.04.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/xercesImpl-2.9.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/htrace-core-3.0.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/servlet-api-2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/xmlenc-0.52.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jetty-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-lang-2.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/log4j-1.2.17.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-client-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-nodemanager-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-tests-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-web-proxy-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-registry-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-api-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-httpclient-3.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-json-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jaxb-impl-2.2.3-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jline-0.9.94.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/guava-11.0.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jettison-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/stax-api-1.0-2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/leveldbjni-all-1.8.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jsr305-1.3.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/activation-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/guice-servlet-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-cli-1.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-jaxrs-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jaxb-api-2.2.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-guice-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-collections-3.2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-client-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-codec-1.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jetty-util-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-compress-1.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/guice-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-logging-1.1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/xz-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/aopalliance-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/servlet-api-2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-xc-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/zookeeper-3.4.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/javax.inject-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jetty-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-lang-2.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/log4j-1.2.17.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-tests.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/leveldbjni-all-1.8.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/guice-servlet-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/snappy-java-1.0.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jersey-guice-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/junit-4.11.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/paranamer-2.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/commons-compress-1.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/guice-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/xz-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/aopalliance-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/avro-1.7.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/hadoop-annotations-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/javax.inject-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/log4j-1.2.17.jar, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0055/filecache/10/job.jar/job.jar, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0055/filecache/10/job.jar/classes, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0055/filecache/10/job.jar/lib/*, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0055/filecache/10/job.jar/]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,002",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.mr.ExecMapper",
+        "message": " thread classpath = [file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0055/container_1427088391284_0055_01_000033/, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/etc/hadoop/, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/hadoop-nfs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/hadoop-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/hadoop-common-2.6.0-tests.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/hamcrest-core-1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-net-3.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-httpclient-3.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/httpclient-4.2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jersey-json-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/api-asn1-api-1.0.0-M20.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-math3-3.1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-digester-1.8.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/guava-11.0.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jettison-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/stax-api-1.0-2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/httpcore-4.2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-configuration-1.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jsr305-1.3.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/activation-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/java-xmlbuilder-0.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-cli-1.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jets3t-0.9.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jsp-api-2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/snappy-java-1.0.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jaxb-api-2.2.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/slf4j-api-1.7.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-collections-3.2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jasper-runtime-5.5.23.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/junit-4.11.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-beanutils-1.7.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/paranamer-2.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/curator-recipes-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-codec-1.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-el-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/mockito-all-1.8.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jetty-util-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-beanutils-core-1.8.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-compress-1.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/curator-client-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jsch-0.1.42.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/gson-2.2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-logging-1.1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/htrace-core-3.0.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/xz-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/apacheds-kerberos-codec-2.0.0-M15.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jasper-compiler-5.5.23.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/curator-framework-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/servlet-api-2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/avro-1.7.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/api-util-1.0.0-M20.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-xc-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/xmlenc-0.52.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/hadoop-annotations-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/hadoop-auth-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/zookeeper-3.4.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jetty-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/apacheds-i18n-2.0.0-M15.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-lang-2.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/log4j-1.2.17.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/hadoop-hdfs-nfs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/hadoop-hdfs-2.6.0-tests.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/hadoop-hdfs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/guava-11.0.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jsr305-1.3.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-cli-1.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jsp-api-2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jasper-runtime-5.5.23.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-codec-1.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-el-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jetty-util-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/xml-apis-1.3.04.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/xercesImpl-2.9.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/htrace-core-3.0.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/servlet-api-2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/xmlenc-0.52.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jetty-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-lang-2.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/log4j-1.2.17.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-client-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-nodemanager-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-tests-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-web-proxy-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-registry-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-api-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-httpclient-3.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-json-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jaxb-impl-2.2.3-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jline-0.9.94.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/guava-11.0.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jettison-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/stax-api-1.0-2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/leveldbjni-all-1.8.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jsr305-1.3.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/activation-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/guice-servlet-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-cli-1.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-jaxrs-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jaxb-api-2.2.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-guice-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-collections-3.2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-client-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-codec-1.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jetty-util-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-compress-1.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/guice-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-logging-1.1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/xz-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/aopalliance-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/servlet-api-2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-xc-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/zookeeper-3.4.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/javax.inject-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jetty-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-lang-2.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/log4j-1.2.17.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-tests.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/leveldbjni-all-1.8.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/guice-servlet-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/snappy-java-1.0.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jersey-guice-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/junit-4.11.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/paranamer-2.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/commons-compress-1.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/guice-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/xz-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/aopalliance-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/avro-1.7.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/hadoop-annotations-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/javax.inject-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/log4j-1.2.17.jar, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0055/filecache/10/job.jar/job.jar, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0055/filecache/10/job.jar/classes, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0055/filecache/10/job.jar/lib/*, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0055/filecache/10/job.jar/]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,004",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.mr.ObjectCache",
+        "message": " Ignoring retrieval request: __MAP_PLAN__\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,005",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.mr.ObjectCache",
+        "message": " Ignoring cache key: __MAP_PLAN__\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,256",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.mr.ExecMapper",
+        "message": " \n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,285",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.MapOperator",
+        "message": " Initializing Self MAP[4]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,286",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.TableScanOperator",
+        "message": " Initializing Self TS[0]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,287",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.TableScanOperator",
+        "message": " Operator 0 TS initialized\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,287",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.TableScanOperator",
+        "message": " Initializing children of 0 TS\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,287",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.SelectOperator",
+        "message": " Initializing child 1 SEL\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,287",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.SelectOperator",
+        "message": " Initializing Self SEL[1]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,297",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.SelectOperator",
+        "message": " SELECT struct<sourceip:string,desturl:string,visitdate:string,adrevenue:double,useragent:string,countrycode:string,languagecode:string,searchword:string,duration:int>\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,303",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.SelectOperator",
+        "message": " Operator 1 SEL initialized\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,303",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.SelectOperator",
+        "message": " Initializing children of 1 SEL\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,303",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " Initializing child 2 GBY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,303",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " Initializing Self GBY[2]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,439",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " Operator 2 GBY initialized\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,439",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " Initializing children of 2 GBY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,439",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " Initializing child 3 RS\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,439",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " Initializing Self RS[3]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,443",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " Using tag = -1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,532",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " Operator 3 RS initialized\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,532",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " Initialization Done 3 RS\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,532",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " Initialization Done 2 GBY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,532",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.SelectOperator",
+        "message": " Initialization Done 1 SEL\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,534",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.TableScanOperator",
+        "message": " Initialization Done 0 TS\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,534",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.MapOperator",
+        "message": " Initialization Done 4 MAP\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,579",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.MapOperator",
+        "message": " MAP[4]: records read - 1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,580",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.MapOperator",
+        "message": " MAP[4]: records read - 10\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,669",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.MapOperator",
+        "message": " MAP[4]: records read - 100\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:00,959",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.MapOperator",
+        "message": " MAP[4]: records read - 1000\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:02,871",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.MapOperator",
+        "message": " MAP[4]: records read - 10000\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:06,186",
+        "type": "WARN",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " Disable Hash Aggr: #hash table = 99998 #total = 100000 reduction = 0.0 minReduction = 0.5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:06,186",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " keys are [_col0] num distributions: 1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:06,190",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " RS[3]: records written - 1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:06,195",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " RS[3]: records written - 10\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:06,200",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " RS[3]: records written - 100\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:06,376",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " RS[3]: records written - 1000\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:07,581",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " RS[3]: records written - 10000\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:08,998",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " Hash Table completed flushed\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:08,998",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.MapOperator",
+        "message": " MAP[4]: records read - 100000\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:08,998",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " RS[3]: records written - 100000\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:21,747",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.MapOperator",
+        "message": " MAP[4]: records read - 1000000\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:21,748",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " RS[3]: records written - 1000000\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:22,346",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.io.HiveContextAwareRecordReader",
+        "message": " Processing file hdfs://172.31.17.135:8120/HiBench/Hive/Input-comp/uservisits/part-00014\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:31,017",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " Spilling map output\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:31,017",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " bufstart = 0; bufend = 56654360; bufvoid = 104857600\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:31,017",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " kvstart = 26214396(104857584); kvend = 19406464(77625856); length = 6807933/6553600\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:31,042",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " (EQUATOR) 63502184 kvi 15875540(63502160)\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,527",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.MapOperator",
+        "message": " 4 finished. closing... \n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,527",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.MapOperator",
+        "message": " RECORDS_IN:2084182\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,527",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.MapOperator",
+        "message": " DESERIALIZE_ERRORS:0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,527",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.TableScanOperator",
+        "message": " 0 finished. closing... \n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,527",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.SelectOperator",
+        "message": " 1 finished. closing... \n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,528",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " 2 finished. closing... \n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,528",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " 3 finished. closing... \n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,528",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " RS[3]: records written - 2084181\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,528",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " RECORDS_OUT_INTERMEDIATE:2084181\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,528",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.ReduceSinkOperator",
+        "message": " 3 Close done\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,528",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " 2 Close done\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,528",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.SelectOperator",
+        "message": " 1 Close done\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,528",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.TableScanOperator",
+        "message": " 0 Close done\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,528",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.MapOperator",
+        "message": " 4 Close done\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:42,572",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " Starting flush of map output\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:50,478",
+        "type": "INFO",
+        "app": "[SpillThread] org.apache.hadoop.mapred.MapTask",
+        "message": " Finished spill 0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:50,479",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " (RESET) equator 63502184 kv 15875540(63502160) kvi 14346752(57387008)\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:50,479",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " Spilling map output\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:50,479",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " bufstart = 63502184; bufend = 76223982; bufvoid = 104857600\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:50,479",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " kvstart = 15875540(63502160); kvend = 14346756(57387024); length = 1528785/6553600\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:52,975",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.MapTask",
+        "message": " Finished spill 1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:52,984",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:52,992",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 808212 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:53,801",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:53,803",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 810673 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,126",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,129",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 817862 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,219",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,220",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 816842 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,286",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,287",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 825309 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,379",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,380",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 813220 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,470",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,471",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 817187 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,561",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,562",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 814543 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,710",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,712",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 800033 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,803",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,804",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 807752 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,894",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,894",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 794144 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,960",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:54,961",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 779355 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,051",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,052",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 771649 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,148",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,149",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 755272 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,236",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,237",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 751775 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,324",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,325",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 739016 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,407",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,408",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 726004 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,498",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,498",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 727751 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,560",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,561",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 720156 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,647",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,648",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 719698 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,734",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,735",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 712127 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,798",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,798",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 711224 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,884",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,885",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 710525 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,946",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:55,971",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 716353 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,032",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,033",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 727165 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,120",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,121",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 736615 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,184",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,185",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 740226 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,271",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,272",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 750770 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,360",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,361",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 761491 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,424",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,425",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 780536 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,515",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,516",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 787809 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,606",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,607",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 799572 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,696",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,697",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 798290 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,790",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,791",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 812287 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,858",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,884",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 808991 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,951",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:56,951",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 823488 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,043",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,044",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 824441 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,145",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,146",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 813590 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,213",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,214",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 817091 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,305",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,306",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 806488 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,396",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,398",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 806015 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,488",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,489",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 793223 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,580",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,581",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 785140 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,646",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,647",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 777461 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,738",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,739",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 764524 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,871",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,872",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 767799 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,936",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:57,937",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 746302 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,026",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,027",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 733305 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,114",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,115",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 733009 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,177",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,178",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 724785 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,264",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,265",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 715935 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,351",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,352",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 709525 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,417",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,417",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 711561 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,542",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,543",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 708196 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,603",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,604",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 707980 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,689",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,690",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 724131 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,752",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,753",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 727525 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,839",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,840",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 735807 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,926",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,927",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 738735 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,989",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:58,990",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 755976 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,077",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,078",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 761620 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,165",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,166",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 782329 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,231",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,232",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 789347 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,320",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,321",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 800100 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,411",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,412",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 798781 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,477",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,502",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 807882 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,569",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,570",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 819235 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,660",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,661",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 822809 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,751",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,752",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 826284 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,842",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,843",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 804471 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,909",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:07:59,934",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 816122 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,000",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,001",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 802461 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,095",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,095",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 806441 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,185",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,186",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 800650 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,276",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,277",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 790436 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,341",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,366",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 776772 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,431",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,432",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 764613 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,521",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,522",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 755492 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,609",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,610",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 746231 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,672",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,673",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 743228 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,760",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,761",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 731732 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,910",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,911",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 722539 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,998",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:00,999",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 711824 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,060",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,061",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 723428 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,148",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,149",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 703401 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,242",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,243",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 706349 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,331",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,332",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 718562 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,394",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,395",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 722494 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,493",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,520",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 729500 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,587",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,588",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 725472 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,683",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,684",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 738128 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,789",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,791",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 746744 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,880",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,881",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 762051 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,980",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:01,981",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 783903 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:02,046",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:02,047",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 787629 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:02,138",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 2 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:02,139",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 2 segments left of total size: 790199 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:02,273",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Task",
+        "message": " Task:attempt_1427088391284_0055_m_000011_0 is done. And is in the process of committing\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:02,376",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Task",
+        "message": " Task 'attempt_1427088391284_0055_m_000011_0' done.\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:02,377",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl",
+        "message": " Stopping MapTask metrics system...\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:02,379",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl",
+        "message": " MapTask metrics system stopped.\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:08:02,379",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl",
+        "message": " MapTask metrics system shutdown complete.\n"
+    }
+]
