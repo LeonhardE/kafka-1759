@@ -6,8 +6,10 @@ import matplotlib.pyplot as plt
 
 local_mode = False
 consumer_timeout_ms = 2000
-# only these machines have pip and we don't have sudo apt-install permission
-hostnames = [f'10.1.0.{i}' for i in range(2, 5)] + ['10.1.0.7', '10.1.0.9', '10.1.0.11', '10.1.0.13']
+hostnames = [f'10.1.0.{i}' for i in range(2, 5)] + [f'10.1.0.{i}' for i in range(7, 23)]
+hostnames.remove('10.1.0.9')
+hostnames.remove('10.1.0.12')
+print(hostnames)
 password = 'ece1759'
 
 def connect_host(seq):
@@ -22,7 +24,7 @@ def init_machine(machine_number):
     client = connect_host(machine_number)
     client.run(f'cd kafka-1759/;\
                 git pull;\
-                pip install -r requirements.txt;\
+                pip3 install -r requirements.txt;\
             ')
 
 def reinstall_repo(seq):
@@ -30,11 +32,11 @@ def reinstall_repo(seq):
     client.run(f'rm -rf kafka-1759;\
                 git clone https://github.com/LeonhardE/kafka-1759.git;\
                 cd kafka-1759/;\
-                pip install -r requirements.txt;\
+                pip3 install -r requirements.txt;\
             ')        
 
-def init_machines(seq):
-    for i in range(seq):
+def init_machines(total):
+    for i in range(total):
         init_machine(i)  
 
 class Tester:
@@ -97,7 +99,6 @@ def test6():
     x = []
     yProduce = []
     yConsume = []
-    init_machines(2)
     while total_records < 10000:
         res = Tester(test_name, total_records, 1, 1).run()
         yProduce.append(sum(res[0]))
@@ -117,8 +118,61 @@ def test6():
     plt.legend()
     plt.savefig(f'{test_name}.png')
     
+
+def test7():
+    test_name = 'test7'
+    total_records = 10000
+    x = []
+    yProduce = []
+    yConsume = []
+    for total_producers in range(1, len(hostnames)):
+        res = Tester(test_name, total_records, total_producers, 1).run()
+        yProduce.append(sum(res[0]))
+        yConsume.append(sum(res[1]))
+        x.append(total_producers)
+
+    print(x, yProduce, yConsume)
+    
+    plt.clf()
+    plt.title('10000 records and 1 consumer')
+    plt.xlabel('number of producers')
+    plt.ylabel('time')
+    plt.plot(x, yProduce, label='total time for producers')
+    plt.plot(x, yConsume, label='time for consumer')
+    plt.legend()
+    plt.savefig(f'{test_name}.png')
+
+def test8():
+    test_name = 'test8'
+    total_records = 10000
+    x = []
+    yProduce = []
+    yConsume = []
+    for total_consumers in range(1, len(hostnames)):
+        res = Tester(test_name, total_records, 1, total_consumers).run()
+        yProduce.append(sum(res[0]))
+        yConsume.append(sum(res[1]))
+        x.append(total_consumers)
+
+    print(x, yProduce, yConsume)
+    
+    plt.clf()
+    plt.title('10000 records and 1 producer')
+    plt.xlabel('number of consumers')
+    plt.ylabel('time')
+    plt.plot(x, yProduce, label='time for producer')
+    plt.plot(x, yConsume, label='total time for consumers')
+    plt.legend()
+    plt.savefig(f'{test_name}.png')
+
 if __name__ == "__main__":
     # for i in range(len(hostnames)):
-    #     reinstall_repo(i)
-    test6()
+    #     try:
+    #         reinstall_repo(i)
+    #     except:
+    #         pass
+    # init_machines(len(hostnames))
+    # test7()
+    test8()
+    
 
