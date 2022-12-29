@@ -1,0 +1,3266 @@
+[
+    {
+        "timestamp": "2015-03-23 09:43:37,395",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.metrics2.impl.MetricsConfig",
+        "message": " loaded properties from hadoop-metrics2.properties\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:38,443",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl",
+        "message": " Scheduled snapshot period at 10 second(s).\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:38,443",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl",
+        "message": " ReduceTask metrics system started\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:38,504",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.YarnChild",
+        "message": " Executing with tokens:\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:38,504",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.YarnChild",
+        "message": " Kind: mapreduce.job, Service: job_1427088391284_0063, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@5497fb72)\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:39,127",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.YarnChild",
+        "message": " Sleeping for 0ms before retrying again. Got null now.\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:42,771",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.YarnChild",
+        "message": " mapreduce.cluster.local.dir for child: /tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0063\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:52,182",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.conf.Configuration.deprecation",
+        "message": " session.id is deprecated. Instead, use dfs.metrics.session-id\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,053",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Task",
+        "message": "  Using ResourceCalculatorProcessTree : [ ]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,471",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.ReduceTask",
+        "message": " Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@53a9dd25\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,535",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,614",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " attempt_1427088391284_0063_r_000043_0 Thread started: EventFetcher for fetching Map Completion Events\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,740",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-53ca095c:13562 with 1 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,740",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-53ca095c:13562 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,743",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-faca09f5:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,744",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-faca09f5:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,744",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-d3ca09dc:13562 with 1 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,744",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-d3ca09dc:13562 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,745",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-fbca09f4:13562 with 1 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,745",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-fbca09f4:13562 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,745",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-fdca09f2:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,745",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-fdca09f2:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:56,895",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " attempt_1427088391284_0063_r_000043_0: Got 47 new map-outputs\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,197",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000057_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,198",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000052_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,198",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000051_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,198",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000058_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,170",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000048_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,218",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#1 about to shuffle output of map attempt_1427088391284_0063_m_000058_0 decomp: 390491 len: 390495 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,218",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000051_0 decomp: 386541 len: 386545 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,219",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#4 about to shuffle output of map attempt_1427088391284_0063_m_000052_0 decomp: 385062 len: 385066 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,220",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000048_0 decomp: 382757 len: 382761 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,220",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#2 about to shuffle output of map attempt_1427088391284_0063_m_000057_0 decomp: 394578 len: 394582 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,406",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 394578 bytes from map-output for attempt_1427088391284_0063_m_000057_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,413",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 386541 bytes from map-output for attempt_1427088391284_0063_m_000051_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,408",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 382757 bytes from map-output for attempt_1427088391284_0063_m_000048_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,488",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 385062 bytes from map-output for attempt_1427088391284_0063_m_000052_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,491",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 394578, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->1939429\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,493",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 382757, inMemoryMapOutputs.size() -> 2, commitMemory -> 394578, usedMemory ->1939429\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,494",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-faca09f5:13562 freed by fetcher#5 in 1750ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,494",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-5fca0950:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,494",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-5fca0950:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,495",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 386541, inMemoryMapOutputs.size() -> 3, commitMemory -> 777335, usedMemory ->1939429\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,496",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-fdca09f2:13562 freed by fetcher#3 in 1750ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,496",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-c8ca09c7:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,496",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-c8ca09c7:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,497",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-d3ca09dc:13562 freed by fetcher#2 in 1753ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,497",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-0cc90a03:13562 with 1 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,497",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-0cc90a03:13562 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,498",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 385062, inMemoryMapOutputs.size() -> 4, commitMemory -> 1163876, usedMemory ->1939429\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,499",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-53ca095c:13562 freed by fetcher#4 in 1759ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,499",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-9eca0991:13562 with 1 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,499",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-9eca0991:13562 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,500",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000045_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,501",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000045_0 decomp: 389587 len: 389591 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,502",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000043_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,502",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000043_0 decomp: 388882 len: 388886 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,503",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000020_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,505",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#2 about to shuffle output of map attempt_1427088391284_0063_m_000020_0 decomp: 773727 len: 773731 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,584",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 388882 bytes from map-output for attempt_1427088391284_0063_m_000043_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,584",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 388882, inMemoryMapOutputs.size() -> 5, commitMemory -> 1548938, usedMemory ->3491625\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,585",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-5fca0950:13562 freed by fetcher#5 in 90ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,585",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-dbca09d4:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,585",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-dbca09d4:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,586",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 389587 bytes from map-output for attempt_1427088391284_0063_m_000045_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,586",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 389587, inMemoryMapOutputs.size() -> 6, commitMemory -> 1937820, usedMemory ->3491625\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,587",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-c8ca09c7:13562 freed by fetcher#3 in 91ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,587",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-f0ca09ff:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,587",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-f0ca09ff:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,591",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000031_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,592",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000031_0 decomp: 385843 len: 385847 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,595",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000042_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,598",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 773727 bytes from map-output for attempt_1427088391284_0063_m_000020_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,598",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 773727, inMemoryMapOutputs.size() -> 7, commitMemory -> 2327407, usedMemory ->4263657\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,598",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-0cc90a03:13562 freed by fetcher#2 in 102ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,598",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-6cca0963:13562 with 1 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,598",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-6cca0963:13562 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,599",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000042_0 decomp: 386189 len: 386193 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,602",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 390491 bytes from map-output for attempt_1427088391284_0063_m_000058_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,602",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 390491, inMemoryMapOutputs.size() -> 8, commitMemory -> 3101134, usedMemory ->4263657\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,602",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-fbca09f4:13562 freed by fetcher#1 in 1858ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,603",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-ccca09c3:13562 with 1 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,603",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-ccca09c3:13562 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,603",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000010_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,604",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 385843 bytes from map-output for attempt_1427088391284_0063_m_000031_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,605",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 385843, inMemoryMapOutputs.size() -> 9, commitMemory -> 3491625, usedMemory ->5037947\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,605",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-dbca09d4:13562 freed by fetcher#5 in 20ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,605",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-d8ca09d7:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,605",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-d8ca09d7:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,652",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000030_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,653",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#2 about to shuffle output of map attempt_1427088391284_0063_m_000030_0 decomp: 385141 len: 385145 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,726",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000006_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,726",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#1 about to shuffle output of map attempt_1427088391284_0063_m_000006_0 decomp: 780085 len: 780089 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,731",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#4 about to shuffle output of map attempt_1427088391284_0063_m_000010_0 decomp: 774290 len: 774294 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,735",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 386189 bytes from map-output for attempt_1427088391284_0063_m_000042_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,735",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 386189, inMemoryMapOutputs.size() -> 10, commitMemory -> 3877468, usedMemory ->6203173\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,735",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-f0ca09ff:13562 freed by fetcher#3 in 148ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,738",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-b4ca09bb:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,738",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-b4ca09bb:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,744",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000040_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,745",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000040_0 decomp: 395621 len: 395625 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,808",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000019_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,809",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000019_0 decomp: 776960 len: 776964 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,812",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 780085 bytes from map-output for attempt_1427088391284_0063_m_000006_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,812",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 780085, inMemoryMapOutputs.size() -> 11, commitMemory -> 4263657, usedMemory ->7375754\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,812",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-ccca09c3:13562 freed by fetcher#1 in 209ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,812",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-c6ca09c9:13562 with 1 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,812",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-c6ca09c9:13562 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,816",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 774290 bytes from map-output for attempt_1427088391284_0063_m_000010_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,821",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 774290, inMemoryMapOutputs.size() -> 12, commitMemory -> 5043742, usedMemory ->7375754\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,821",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-9eca0991:13562 freed by fetcher#4 in 323ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,894",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 385141 bytes from map-output for attempt_1427088391284_0063_m_000030_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,894",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 395621 bytes from map-output for attempt_1427088391284_0063_m_000040_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,943",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000008_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,944",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#1 about to shuffle output of map attempt_1427088391284_0063_m_000008_0 decomp: 774261 len: 774265 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,948",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-d9ca09d6:13562 with 1 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,949",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 395621, inMemoryMapOutputs.size() -> 13, commitMemory -> 5818032, usedMemory ->8150015\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,949",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-b4ca09bb:13562 freed by fetcher#3 in 212ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,949",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-0fc90a00:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,950",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-0fc90a00:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,951",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 385141, inMemoryMapOutputs.size() -> 14, commitMemory -> 6213653, usedMemory ->8150015\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,951",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-6cca0963:13562 freed by fetcher#2 in 352ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,951",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-acca09a3:13562 with 1 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,951",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-acca09a3:13562 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,954",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-d9ca09d6:13562 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,955",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000055_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,955",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#2 about to shuffle output of map attempt_1427088391284_0063_m_000055_0 decomp: 395508 len: 395512 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,956",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000066_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,957",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000066_0 decomp: 390918 len: 390922 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,964",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000053_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:58,965",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#4 about to shuffle output of map attempt_1427088391284_0063_m_000053_0 decomp: 388951 len: 388955 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,045",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 390918 bytes from map-output for attempt_1427088391284_0063_m_000066_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,046",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 390918, inMemoryMapOutputs.size() -> 15, commitMemory -> 6598794, usedMemory ->9325392\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,046",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-0fc90a00:13562 freed by fetcher#3 in 97ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,046",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-aeca09a1:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,047",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-aeca09a1:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,047",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 774261 bytes from map-output for attempt_1427088391284_0063_m_000008_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,048",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 774261, inMemoryMapOutputs.size() -> 16, commitMemory -> 6989712, usedMemory ->9325392\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,048",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-c6ca09c9:13562 freed by fetcher#1 in 236ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,048",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-1ec90a11:13562 with 1 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,048",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-1ec90a11:13562 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,050",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 388951 bytes from map-output for attempt_1427088391284_0063_m_000053_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,050",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 388951, inMemoryMapOutputs.size() -> 17, commitMemory -> 7763973, usedMemory ->9325392\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,055",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-d9ca09d6:13562 freed by fetcher#4 in 108ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,055",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-7aca0975:13562 with 1 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,056",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-7aca0975:13562 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,056",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 776960 bytes from map-output for attempt_1427088391284_0063_m_000019_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,056",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 776960, inMemoryMapOutputs.size() -> 18, commitMemory -> 8152924, usedMemory ->9325392\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,056",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-d8ca09d7:13562 freed by fetcher#5 in 452ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,057",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-63ca096c:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,057",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-63ca096c:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,060",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 395508 bytes from map-output for attempt_1427088391284_0063_m_000055_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,060",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 395508, inMemoryMapOutputs.size() -> 19, commitMemory -> 8929884, usedMemory ->9325392\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,060",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-acca09a3:13562 freed by fetcher#2 in 110ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,060",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-01c90a0e:13562 with 1 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,060",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-01c90a0e:13562 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,088",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000050_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,089",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000050_0 decomp: 386363 len: 386367 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,090",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000065_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,090",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#1 about to shuffle output of map attempt_1427088391284_0063_m_000065_0 decomp: 383546 len: 383550 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,091",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000063_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,091",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000054_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,092",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#4 about to shuffle output of map attempt_1427088391284_0063_m_000054_0 decomp: 390671 len: 390675 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,098",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#2 about to shuffle output of map attempt_1427088391284_0063_m_000063_0 decomp: 386564 len: 386568 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,100",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000029_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,101",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000029_0 decomp: 392411 len: 392415 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,186",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 383546 bytes from map-output for attempt_1427088391284_0063_m_000065_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,186",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 383546, inMemoryMapOutputs.size() -> 20, commitMemory -> 9325392, usedMemory ->11264947\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,186",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-1ec90a11:13562 freed by fetcher#1 in 138ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,186",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-8aca0985:13562 with 1 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,186",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-8aca0985:13562 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,191",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 386363 bytes from map-output for attempt_1427088391284_0063_m_000050_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,191",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 386363, inMemoryMapOutputs.size() -> 21, commitMemory -> 9708938, usedMemory ->11264947\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,191",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-aeca09a1:13562 freed by fetcher#3 in 144ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,191",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 390671 bytes from map-output for attempt_1427088391284_0063_m_000054_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,193",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 390671, inMemoryMapOutputs.size() -> 22, commitMemory -> 10095301, usedMemory ->11264947\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,193",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-7aca0975:13562 freed by fetcher#4 in 137ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,193",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-e5ca09ea:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,193",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-e5ca09ea:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,194",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-61ca096e:13562 with 1 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,194",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-61ca096e:13562 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,192",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000022_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,195",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#1 about to shuffle output of map attempt_1427088391284_0063_m_000022_0 decomp: 386985 len: 386989 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,196",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 392411 bytes from map-output for attempt_1427088391284_0063_m_000029_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,196",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 392411, inMemoryMapOutputs.size() -> 23, commitMemory -> 10485972, usedMemory ->11651932\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,197",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-63ca096c:13562 freed by fetcher#5 in 140ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,197",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-07c90a08:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,197",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-07c90a08:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,200",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000011_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,200",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#4 about to shuffle output of map attempt_1427088391284_0063_m_000011_0 decomp: 777490 len: 777494 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,203",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000038_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,203",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000018_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,622",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000018_0 decomp: 765603 len: 765607 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,626",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000038_0 decomp: 389431 len: 389435 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,626",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 386564 bytes from map-output for attempt_1427088391284_0063_m_000063_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,626",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 386564, inMemoryMapOutputs.size() -> 24, commitMemory -> 10878383, usedMemory ->13584456\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,627",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-01c90a0e:13562 freed by fetcher#2 in 566ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,627",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-7cca0973:13562 with 1 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,627",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-7cca0973:13562 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,628",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 386985 bytes from map-output for attempt_1427088391284_0063_m_000022_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,628",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 386985, inMemoryMapOutputs.size() -> 25, commitMemory -> 11264947, usedMemory ->13584456\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,629",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-8aca0985:13562 freed by fetcher#1 in 442ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,629",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-67ca0968:13562 with 1 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,629",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-67ca0968:13562 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,712",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000028_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,713",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#2 about to shuffle output of map attempt_1427088391284_0063_m_000028_0 decomp: 384312 len: 384316 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,716",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000062_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,717",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#1 about to shuffle output of map attempt_1427088391284_0063_m_000062_0 decomp: 387651 len: 387655 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,719",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 777490 bytes from map-output for attempt_1427088391284_0063_m_000011_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,719",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 777490, inMemoryMapOutputs.size() -> 26, commitMemory -> 11651932, usedMemory ->14356419\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,720",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-61ca096e:13562 freed by fetcher#4 in 526ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,720",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-59ca0956:13562 with 1 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,720",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-59ca0956:13562 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,725",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 384312 bytes from map-output for attempt_1427088391284_0063_m_000028_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,725",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 384312, inMemoryMapOutputs.size() -> 27, commitMemory -> 12429422, usedMemory ->14356419\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,726",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-7cca0973:13562 freed by fetcher#2 in 99ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,726",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-88ca0987:13562 with 1 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,726",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-88ca0987:13562 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,729",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 389431 bytes from map-output for attempt_1427088391284_0063_m_000038_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,729",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 389431, inMemoryMapOutputs.size() -> 28, commitMemory -> 12813734, usedMemory ->14356419\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,730",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-07c90a08:13562 freed by fetcher#5 in 533ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,730",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-78ca0977:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,730",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-78ca0977:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,733",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 387651 bytes from map-output for attempt_1427088391284_0063_m_000062_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,733",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 387651, inMemoryMapOutputs.size() -> 29, commitMemory -> 13203165, usedMemory ->14356419\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,733",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-67ca0968:13562 freed by fetcher#1 in 104ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,733",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-c1ca09ce:13562 with 1 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,733",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-c1ca09ce:13562 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,806",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000025_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,806",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#4 about to shuffle output of map attempt_1427088391284_0063_m_000025_0 decomp: 387436 len: 387440 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,807",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 765603 bytes from map-output for attempt_1427088391284_0063_m_000018_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,807",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 765603, inMemoryMapOutputs.size() -> 30, commitMemory -> 13590816, usedMemory ->14743855\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,808",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-e5ca09ea:13562 freed by fetcher#3 in 614ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,808",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-34ca093b:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,808",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-34ca093b:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,812",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000067_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,812",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#2 about to shuffle output of map attempt_1427088391284_0063_m_000067_0 decomp: 383441 len: 383445 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,814",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000041_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,814",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000041_0 decomp: 385381 len: 385385 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,815",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000061_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,815",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000061_0 decomp: 382794 len: 382798 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,826",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 385381 bytes from map-output for attempt_1427088391284_0063_m_000041_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,826",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 385381, inMemoryMapOutputs.size() -> 31, commitMemory -> 14356419, usedMemory ->15895471\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,827",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-78ca0977:13562 freed by fetcher#5 in 97ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,827",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-b1ca09be:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,827",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-b1ca09be:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,828",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 383441 bytes from map-output for attempt_1427088391284_0063_m_000067_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,828",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 383441, inMemoryMapOutputs.size() -> 32, commitMemory -> 14741800, usedMemory ->15895471\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,828",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-88ca0987:13562 freed by fetcher#2 in 102ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,828",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-89ca0986:13562 with 1 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,902",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 382794 bytes from map-output for attempt_1427088391284_0063_m_000061_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,902",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-89ca0986:13562 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,903",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 387436 bytes from map-output for attempt_1427088391284_0063_m_000025_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,904",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 387436, inMemoryMapOutputs.size() -> 33, commitMemory -> 15125241, usedMemory ->15895471\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,904",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-59ca0956:13562 freed by fetcher#4 in 184ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,904",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-8cca0983:13562 with 1 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,904",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-8cca0983:13562 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,904",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 382794, inMemoryMapOutputs.size() -> 34, commitMemory -> 15512677, usedMemory ->15895471\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,905",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-34ca093b:13562 freed by fetcher#3 in 97ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,905",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-68ca0967:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,905",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-68ca0967:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,909",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000033_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,910",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#2 about to shuffle output of map attempt_1427088391284_0063_m_000033_0 decomp: 383230 len: 383234 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,911",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000024_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,912",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000024_0 decomp: 393174 len: 393178 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,911",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000005_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,912",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#1 about to shuffle output of map attempt_1427088391284_0063_m_000005_0 decomp: 783377 len: 783381 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,910",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000039_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:43:59,920",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#4 about to shuffle output of map attempt_1427088391284_0063_m_000039_0 decomp: 389819 len: 389823 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,004",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 389819 bytes from map-output for attempt_1427088391284_0063_m_000039_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,005",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 389819, inMemoryMapOutputs.size() -> 35, commitMemory -> 15895471, usedMemory ->17845071\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,005",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000035_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,008",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000035_0 decomp: 388214 len: 388218 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,009",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-8cca0983:13562 freed by fetcher#4 in 106ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,010",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-e7ca09e8:13562 with 1 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,010",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-e7ca09e8:13562 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,013",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 383230 bytes from map-output for attempt_1427088391284_0063_m_000033_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,013",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 383230, inMemoryMapOutputs.size() -> 36, commitMemory -> 16285290, usedMemory ->18233285\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,014",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-89ca0986:13562 freed by fetcher#2 in 185ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,014",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-a4ca09ab:13562 with 1 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,014",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-a4ca09ab:13562 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,018",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 393174 bytes from map-output for attempt_1427088391284_0063_m_000024_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,018",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 393174, inMemoryMapOutputs.size() -> 37, commitMemory -> 16668520, usedMemory ->18233285\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,018",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-68ca0967:13562 freed by fetcher#3 in 113ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,018",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-9dca0992:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,018",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-9dca0992:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,095",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000026_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,096",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000021_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,097",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#4 about to shuffle output of map attempt_1427088391284_0063_m_000026_0 decomp: 384444 len: 384448 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,097",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 783377 bytes from map-output for attempt_1427088391284_0063_m_000005_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,098",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 783377, inMemoryMapOutputs.size() -> 38, commitMemory -> 17061694, usedMemory ->18617729\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,098",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-c1ca09ce:13562 freed by fetcher#1 in 364ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,098",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-caca09c5:13562 with 1 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,100",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#2 about to shuffle output of map attempt_1427088391284_0063_m_000021_0 decomp: 393222 len: 393226 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,098",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-caca09c5:13562 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,103",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 388214 bytes from map-output for attempt_1427088391284_0063_m_000035_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,103",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 388214, inMemoryMapOutputs.size() -> 39, commitMemory -> 17845071, usedMemory ->19010951\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,103",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-b1ca09be:13562 freed by fetcher#5 in 276ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,103",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-52ca095d:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,103",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-52ca095d:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,108",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000046_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,109",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000046_0 decomp: 390019 len: 390023 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,110",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 384444 bytes from map-output for attempt_1427088391284_0063_m_000026_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,110",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 384444, inMemoryMapOutputs.size() -> 40, commitMemory -> 18233285, usedMemory ->19400970\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,110",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-e7ca09e8:13562 freed by fetcher#4 in 101ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,110",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-98ca0997:13562 with 1 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,110",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-98ca0997:13562 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,191",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 393222 bytes from map-output for attempt_1427088391284_0063_m_000021_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,192",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 393222, inMemoryMapOutputs.size() -> 41, commitMemory -> 18617729, usedMemory ->19400970\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,192",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-a4ca09ab:13562 freed by fetcher#2 in 178ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,192",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-5dca0952:13562 with 1 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,194",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-5dca0952:13562 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,194",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000023_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,192",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000060_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,196",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#1 about to shuffle output of map attempt_1427088391284_0063_m_000060_0 decomp: 382336 len: 382340 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,199",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#4 about to shuffle output of map attempt_1427088391284_0063_m_000023_0 decomp: 393750 len: 393754 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,205",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 390019 bytes from map-output for attempt_1427088391284_0063_m_000046_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,206",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 390019, inMemoryMapOutputs.size() -> 42, commitMemory -> 19010951, usedMemory ->20177056\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,206",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 382336 bytes from map-output for attempt_1427088391284_0063_m_000060_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,207",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 382336, inMemoryMapOutputs.size() -> 43, commitMemory -> 19400970, usedMemory ->20177056\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,207",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-caca09c5:13562 freed by fetcher#1 in 108ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,207",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-6dca0962:13562 with 1 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,207",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-6dca0962:13562 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,208",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000027_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,208",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#2 about to shuffle output of map attempt_1427088391284_0063_m_000027_0 decomp: 394953 len: 394957 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,211",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-52ca095d:13562 freed by fetcher#5 in 109ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,212",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000034_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,286",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000032_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,288",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#1 about to shuffle output of map attempt_1427088391284_0063_m_000032_0 decomp: 385405 len: 385409 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,289",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000034_0 decomp: 394539 len: 394543 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,289",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 393750 bytes from map-output for attempt_1427088391284_0063_m_000023_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,290",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 393750, inMemoryMapOutputs.size() -> 44, commitMemory -> 19783306, usedMemory ->21351953\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,293",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-98ca0997:13562 freed by fetcher#4 in 182ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,294",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 385405 bytes from map-output for attempt_1427088391284_0063_m_000032_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,294",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 385405, inMemoryMapOutputs.size() -> 45, commitMemory -> 20177056, usedMemory ->21351953\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,296",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-6dca0962:13562 freed by fetcher#1 in 89ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,297",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 394953 bytes from map-output for attempt_1427088391284_0063_m_000027_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,298",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 394953, inMemoryMapOutputs.size() -> 46, commitMemory -> 20562461, usedMemory ->21351953\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,298",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-5dca0952:13562 freed by fetcher#2 in 105ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,309",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 394539 bytes from map-output for attempt_1427088391284_0063_m_000034_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,309",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 394539, inMemoryMapOutputs.size() -> 47, commitMemory -> 20957414, usedMemory ->21351953\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:00,309",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-9dca0992:13562 freed by fetcher#3 in 292ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:10,064",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-9aca0995:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:10,064",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-9aca0995:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:10,065",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-c7ca09c8:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:10,065",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-c7ca09c8:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:10,066",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " attempt_1427088391284_0063_r_000043_0: Got 2 new map-outputs\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:10,151",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000047_1 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:10,151",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000047_1 decomp: 390541 len: 390545 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,027",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 390541 bytes from map-output for attempt_1427088391284_0063_m_000047_1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,027",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 390541, inMemoryMapOutputs.size() -> 48, commitMemory -> 21351953, usedMemory ->21742494\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,027",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-c7ca09c8:13562 freed by fetcher#5 in 962ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,084",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000013_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,084",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000013_0 decomp: 784005 len: 784009 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,085",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " attempt_1427088391284_0063_r_000043_0: Got 2 new map-outputs\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,091",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-58ca0957:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,092",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-9bca0994:13562 with 1 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,092",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-9bca0994:13562 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,093",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-58ca0957:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,123",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000009_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,124",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000009_0 decomp: 776593 len: 776597 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,138",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 784005 bytes from map-output for attempt_1427088391284_0063_m_000013_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,139",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 784005, inMemoryMapOutputs.size() -> 49, commitMemory -> 21742494, usedMemory ->23303092\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:11,139",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-9aca0995:13562 freed by fetcher#3 in 1075ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:12,133",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " attempt_1427088391284_0063_r_000043_0: Got 2 new map-outputs\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:12,133",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-bcca09b3:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:12,133",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-bcca09b3:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:12,134",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-55ca095a:13562 with 1 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:12,134",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-55ca095a:13562 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:12,490",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000037_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:12,491",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#2 about to shuffle output of map attempt_1427088391284_0063_m_000037_0 decomp: 391156 len: 391160 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:12,669",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 776593 bytes from map-output for attempt_1427088391284_0063_m_000009_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:12,670",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 776593, inMemoryMapOutputs.size() -> 50, commitMemory -> 22526499, usedMemory ->23694248\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:12,670",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-58ca0957:13562 freed by fetcher#5 in 1578ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:12,948",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000012_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:12,948",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000012_0 decomp: 776448 len: 776452 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,142",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " attempt_1427088391284_0063_r_000043_0: Got 2 new map-outputs\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,142",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-41ca094e:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,143",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-41ca094e:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,146",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-dfca09d0:13562 with 1 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,146",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-dfca09d0:13562 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,147",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000036_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,147",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#4 about to shuffle output of map attempt_1427088391284_0063_m_000036_0 decomp: 386782 len: 386786 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,154",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000015_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,197",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#1 about to shuffle output of map attempt_1427088391284_0063_m_000015_0 decomp: 783499 len: 783503 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,199",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 776448 bytes from map-output for attempt_1427088391284_0063_m_000012_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,199",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 776448, inMemoryMapOutputs.size() -> 51, commitMemory -> 23303092, usedMemory ->25640977\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,199",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-bcca09b3:13562 freed by fetcher#3 in 1066ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,201",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 386782 bytes from map-output for attempt_1427088391284_0063_m_000036_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,201",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 386782, inMemoryMapOutputs.size() -> 52, commitMemory -> 24079540, usedMemory ->25640977\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,202",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-55ca095a:13562 freed by fetcher#4 in 1068ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,304",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 783499 bytes from map-output for attempt_1427088391284_0063_m_000015_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,304",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 783499, inMemoryMapOutputs.size() -> 53, commitMemory -> 24466322, usedMemory ->25640977\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,304",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-dfca09d0:13562 freed by fetcher#1 in 158ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,458",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 391156 bytes from map-output for attempt_1427088391284_0063_m_000037_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,458",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 391156, inMemoryMapOutputs.size() -> 54, commitMemory -> 25249821, usedMemory ->25640977\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:13,458",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-9bca0994:13562 freed by fetcher#2 in 2367ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,147",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " attempt_1427088391284_0063_r_000043_0: Got 6 new map-outputs\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,148",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-edca09e2:13562 with 1 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,148",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-b2ca09bd:13562 with 1 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,148",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-9bca0994:13562 with 1 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,148",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-9bca0994:13562 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,149",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-64ca096b:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,149",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-64ca096b:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,150",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-b2ca09bd:13562 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,156",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000017_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,156",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#1 about to shuffle output of map attempt_1427088391284_0063_m_000017_0 decomp: 783813 len: 783817 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,157",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-edca09e2:13562 to fetcher#2\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,164",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 783813 bytes from map-output for attempt_1427088391284_0063_m_000017_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,165",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 783813, inMemoryMapOutputs.size() -> 55, commitMemory -> 25640977, usedMemory ->26424790\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,166",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-b2ca09bd:13562 freed by fetcher#1 in 19ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,166",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-1fc90a10:13562 with 2 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,167",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 2 of 2 to i-1fc90a10:13562 to fetcher#1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,176",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000049_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,178",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000007_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,179",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#4 about to shuffle output of map attempt_1427088391284_0063_m_000049_0 decomp: 388900 len: 388904 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,180",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000007_0 decomp: 781972 len: 781976 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,487",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 388900 bytes from map-output for attempt_1427088391284_0063_m_000049_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,487",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 388900, inMemoryMapOutputs.size() -> 56, commitMemory -> 26424790, usedMemory ->27595662\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,487",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-9bca0994:13562 freed by fetcher#4 in 340ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,489",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 781972 bytes from map-output for attempt_1427088391284_0063_m_000007_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,489",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 781972, inMemoryMapOutputs.size() -> 57, commitMemory -> 26813690, usedMemory ->27595662\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,490",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-41ca094e:13562 freed by fetcher#5 in 1347ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,673",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000016_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,674",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#2 about to shuffle output of map attempt_1427088391284_0063_m_000016_0 decomp: 776943 len: 776947 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,701",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000059_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,702",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000059_0 decomp: 388498 len: 388502 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,741",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000056_0,attempt_1427088391284_0063_m_000044_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,775",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#1 about to shuffle output of map attempt_1427088391284_0063_m_000056_0 decomp: 390407 len: 390411 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,980",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 390407 bytes from map-output for attempt_1427088391284_0063_m_000056_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,980",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 390407, inMemoryMapOutputs.size() -> 58, commitMemory -> 27595662, usedMemory ->29151510\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:14,981",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#1 about to shuffle output of map attempt_1427088391284_0063_m_000044_0 decomp: 388004 len: 388008 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,058",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 388004 bytes from map-output for attempt_1427088391284_0063_m_000044_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,058",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 388004, inMemoryMapOutputs.size() -> 59, commitMemory -> 27986069, usedMemory ->29539514\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,059",
+        "type": "INFO",
+        "app": "[fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-1fc90a10:13562 freed by fetcher#1 in 892ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,122",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 776943 bytes from map-output for attempt_1427088391284_0063_m_000016_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,122",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 776943, inMemoryMapOutputs.size() -> 60, commitMemory -> 28374073, usedMemory ->29539514\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,123",
+        "type": "INFO",
+        "app": "[fetcher#2] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-edca09e2:13562 freed by fetcher#2 in 975ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,135",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 388498 bytes from map-output for attempt_1427088391284_0063_m_000059_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,135",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 388498, inMemoryMapOutputs.size() -> 61, commitMemory -> 29151016, usedMemory ->29539514\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,135",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-64ca096b:13562 freed by fetcher#3 in 987ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,149",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " attempt_1427088391284_0063_r_000043_0: Got 1 new map-outputs\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,149",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-f1ca09fe:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,149",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-f1ca09fe:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,154",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000014_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,155",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000014_0 decomp: 773809 len: 773813 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,167",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 773809 bytes from map-output for attempt_1427088391284_0063_m_000014_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,167",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 773809, inMemoryMapOutputs.size() -> 62, commitMemory -> 29539514, usedMemory ->30313323\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:15,168",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-f1ca09fe:13562 freed by fetcher#3 in 18ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,153",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " attempt_1427088391284_0063_r_000043_0: Got 2 new map-outputs\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,154",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-64ca096b:13562 with 1 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,156",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-bbca09b4:13562 with 1 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,156",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-bbca09b4:13562 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,157",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-64ca096b:13562 to fetcher#3\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,242",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000002_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,246",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#4 about to shuffle output of map attempt_1427088391284_0063_m_000002_0 decomp: 1155390 len: 1155394 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,251",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000064_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,251",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#3 about to shuffle output of map attempt_1427088391284_0063_m_000064_0 decomp: 387613 len: 387617 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,313",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 387613 bytes from map-output for attempt_1427088391284_0063_m_000064_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,313",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 387613, inMemoryMapOutputs.size() -> 63, commitMemory -> 30313323, usedMemory ->31856326\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,313",
+        "type": "INFO",
+        "app": "[fetcher#3] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-64ca096b:13562 freed by fetcher#3 in 157ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,456",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 1155390 bytes from map-output for attempt_1427088391284_0063_m_000002_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,457",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 1155390, inMemoryMapOutputs.size() -> 64, commitMemory -> 30700936, usedMemory ->31856326\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:17,457",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-bbca09b4:13562 freed by fetcher#4 in 301ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:39,284",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-a9ca09a6:13562 with 1 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:39,284",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-a9ca09a6:13562 to fetcher#4\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:39,285",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " attempt_1427088391284_0063_r_000043_0: Got 1 new map-outputs\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:40,287",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " attempt_1427088391284_0063_r_000043_0: Got 1 new map-outputs\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:40,288",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-bfca09b0:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:40,288",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-bfca09b0:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:40,370",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000003_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:40,373",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#4 about to shuffle output of map attempt_1427088391284_0063_m_000003_0 decomp: 1176097 len: 1176101 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:41,546",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000004_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:41,551",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 1176097 bytes from map-output for attempt_1427088391284_0063_m_000003_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:41,551",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 1176097, inMemoryMapOutputs.size() -> 65, commitMemory -> 31856326, usedMemory ->33032423\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:41,552",
+        "type": "INFO",
+        "app": "[fetcher#4] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-a9ca09a6:13562 freed by fetcher#4 in 2268ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:41,593",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000004_0 decomp: 1166904 len: 1166908 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:42,944",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 1166904 bytes from map-output for attempt_1427088391284_0063_m_000004_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:42,945",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 1166904, inMemoryMapOutputs.size() -> 66, commitMemory -> 33032423, usedMemory ->34199327\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:42,945",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-bfca09b0:13562 freed by fetcher#5 in 2657ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:44,295",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " attempt_1427088391284_0063_r_000043_0: Got 1 new map-outputs\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:44,295",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-b8ca09b7:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:44,295",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-b8ca09b7:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:44,435",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000000_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:44,438",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000000_0 decomp: 1549611 len: 1549615 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:46,964",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 1549611 bytes from map-output for attempt_1427088391284_0063_m_000000_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:46,964",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 1549611, inMemoryMapOutputs.size() -> 67, commitMemory -> 34199327, usedMemory ->35748938\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:44:46,965",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-b8ca09b7:13562 freed by fetcher#5 in 2669ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:08,338",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " Assigning i-feca09f1:13562 with 1 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:08,338",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " assigned 1 of 1 to i-feca09f1:13562 to fetcher#5\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:08,339",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " attempt_1427088391284_0063_r_000043_0: Got 1 new map-outputs\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:08,708",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " for url=13562/mapOutput?job=job_1427088391284_0063&reduce=43&map=attempt_1427088391284_0063_m_000001_0 sent hash and received reply\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:08,709",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher",
+        "message": " fetcher#5 about to shuffle output of map attempt_1427088391284_0063_m_000001_0 decomp: 1556704 len: 1556708 to MEMORY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:10,644",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput",
+        "message": " Read 1556704 bytes from map-output for attempt_1427088391284_0063_m_000001_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:10,644",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " closeInMemoryFile -> map-output of size: 1556704, inMemoryMapOutputs.size() -> 68, commitMemory -> 35748938, usedMemory ->37305642\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:10,646",
+        "type": "INFO",
+        "app": "[EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher",
+        "message": " EventFetcher is interrupted.. Returning\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:10,647",
+        "type": "INFO",
+        "app": "[fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl",
+        "message": " i-feca09f1:13562 freed by fetcher#5 in 2309ms\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:10,651",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " finalMerge called with 68 in-memory map-outputs and 0 on-disk map-outputs\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:10,665",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 68 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:10,667",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 68 segments left of total size: 37304277 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:15,140",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " Merged 68 segments, 37305642 bytes to disk to satisfy reduce memory limit\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:15,141",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " Merging 1 files, 37305512 bytes from disk\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:15,142",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl",
+        "message": " Merging 0 segments, 0 bytes from memory into reduce\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:15,142",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Merging 1 sorted segments\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:15,171",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Merger",
+        "message": " Down to the last merge-pass, with 1 segments left of total size: 37305488 bytes\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:15,335",
+        "type": "INFO",
+        "app": "[main] ExecReducer",
+        "message": " conf classpath = [file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0063/container_1427088391284_0063_01_000114/, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/etc/hadoop/, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/hadoop-nfs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/hadoop-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/hadoop-common-2.6.0-tests.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/hamcrest-core-1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-net-3.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-httpclient-3.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/httpclient-4.2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jersey-json-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/api-asn1-api-1.0.0-M20.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-math3-3.1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-digester-1.8.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/guava-11.0.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jettison-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/stax-api-1.0-2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/httpcore-4.2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-configuration-1.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jsr305-1.3.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/activation-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/java-xmlbuilder-0.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-cli-1.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jets3t-0.9.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jsp-api-2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/snappy-java-1.0.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jaxb-api-2.2.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/slf4j-api-1.7.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-collections-3.2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jasper-runtime-5.5.23.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/junit-4.11.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-beanutils-1.7.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/paranamer-2.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/curator-recipes-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-codec-1.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-el-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/mockito-all-1.8.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jetty-util-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-beanutils-core-1.8.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-compress-1.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/curator-client-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jsch-0.1.42.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/gson-2.2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-logging-1.1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/htrace-core-3.0.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/xz-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/apacheds-kerberos-codec-2.0.0-M15.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jasper-compiler-5.5.23.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/curator-framework-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/servlet-api-2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/avro-1.7.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/api-util-1.0.0-M20.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-xc-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/xmlenc-0.52.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/hadoop-annotations-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/hadoop-auth-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/zookeeper-3.4.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jetty-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/apacheds-i18n-2.0.0-M15.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-lang-2.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/log4j-1.2.17.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/hadoop-hdfs-nfs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/hadoop-hdfs-2.6.0-tests.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/hadoop-hdfs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/guava-11.0.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jsr305-1.3.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-cli-1.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jsp-api-2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jasper-runtime-5.5.23.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-codec-1.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-el-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jetty-util-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/xml-apis-1.3.04.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/xercesImpl-2.9.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/htrace-core-3.0.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/servlet-api-2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/xmlenc-0.52.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jetty-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-lang-2.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/log4j-1.2.17.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-client-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-nodemanager-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-tests-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-web-proxy-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-registry-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-api-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-httpclient-3.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-json-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jaxb-impl-2.2.3-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jline-0.9.94.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/guava-11.0.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jettison-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/stax-api-1.0-2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/leveldbjni-all-1.8.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jsr305-1.3.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/activation-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/guice-servlet-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-cli-1.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-jaxrs-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jaxb-api-2.2.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-guice-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-collections-3.2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-client-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-codec-1.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jetty-util-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-compress-1.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/guice-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-logging-1.1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/xz-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/aopalliance-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/servlet-api-2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-xc-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/zookeeper-3.4.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/javax.inject-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jetty-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-lang-2.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/log4j-1.2.17.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-tests.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/leveldbjni-all-1.8.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/guice-servlet-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/snappy-java-1.0.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jersey-guice-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/junit-4.11.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/paranamer-2.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/commons-compress-1.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/guice-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/xz-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/aopalliance-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/avro-1.7.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/hadoop-annotations-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/javax.inject-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/log4j-1.2.17.jar, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0063/filecache/10/job.jar/job.jar, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0063/filecache/10/job.jar/classes, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0063/filecache/10/job.jar/lib/*, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0063/filecache/10/job.jar/]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:15,337",
+        "type": "INFO",
+        "app": "[main] ExecReducer",
+        "message": " thread classpath = [file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0063/container_1427088391284_0063_01_000114/, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/etc/hadoop/, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/hadoop-nfs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/hadoop-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/hadoop-common-2.6.0-tests.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/hamcrest-core-1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-net-3.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-httpclient-3.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/httpclient-4.2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jersey-json-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/api-asn1-api-1.0.0-M20.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-math3-3.1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-digester-1.8.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/guava-11.0.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jettison-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/stax-api-1.0-2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/httpcore-4.2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-configuration-1.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jsr305-1.3.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/activation-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/java-xmlbuilder-0.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-cli-1.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jets3t-0.9.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jsp-api-2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/snappy-java-1.0.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jaxb-api-2.2.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/slf4j-api-1.7.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-collections-3.2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jasper-runtime-5.5.23.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/junit-4.11.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-beanutils-1.7.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/paranamer-2.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/curator-recipes-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-codec-1.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-el-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/mockito-all-1.8.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jetty-util-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-beanutils-core-1.8.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-compress-1.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/curator-client-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jsch-0.1.42.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/gson-2.2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-logging-1.1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/htrace-core-3.0.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/xz-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/apacheds-kerberos-codec-2.0.0-M15.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jasper-compiler-5.5.23.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/curator-framework-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/servlet-api-2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/avro-1.7.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/api-util-1.0.0-M20.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jackson-xc-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/xmlenc-0.52.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/hadoop-annotations-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/hadoop-auth-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/zookeeper-3.4.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/jetty-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/apacheds-i18n-2.0.0-M15.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/commons-lang-2.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/common/lib/log4j-1.2.17.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/hadoop-hdfs-nfs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/hadoop-hdfs-2.6.0-tests.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/hadoop-hdfs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/guava-11.0.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jsr305-1.3.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-cli-1.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jsp-api-2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jasper-runtime-5.5.23.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-codec-1.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-el-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jetty-util-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/xml-apis-1.3.04.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/xercesImpl-2.9.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/htrace-core-3.0.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/servlet-api-2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/xmlenc-0.52.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/jetty-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/commons-lang-2.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/hdfs/lib/log4j-1.2.17.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-client-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-nodemanager-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-tests-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-web-proxy-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-registry-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/hadoop-yarn-api-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-httpclient-3.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-json-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jaxb-impl-2.2.3-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jline-0.9.94.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/guava-11.0.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jettison-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/stax-api-1.0-2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/leveldbjni-all-1.8.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jsr305-1.3.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/activation-1.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/guice-servlet-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-cli-1.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-jaxrs-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jaxb-api-2.2.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-guice-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-collections-3.2.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jersey-client-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-codec-1.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jetty-util-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-compress-1.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/guice-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-logging-1.1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/xz-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/aopalliance-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/servlet-api-2.5.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jackson-xc-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/zookeeper-3.4.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/javax.inject-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/jetty-6.1.26.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/commons-lang-2.6.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/yarn/lib/log4j-1.2.17.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-tests.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/leveldbjni-all-1.8.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/guice-servlet-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jersey-server-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jersey-core-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/asm-3.2.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/snappy-java-1.0.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jersey-guice-1.9.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jackson-mapper-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/junit-4.11.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/jackson-core-asl-1.9.13.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/paranamer-2.3.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/commons-compress-1.4.1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/protobuf-java-2.5.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/guice-3.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/xz-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/aopalliance-1.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/avro-1.7.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/commons-io-2.4.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/hadoop-annotations-2.6.0.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/javax.inject-1.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/netty-3.6.2.Final.jar, file:/home/ubuntu/3603-hive/hadoop-2.6.0-src/hadoop-dist/target/hadoop-2.6.0/share/hadoop/mapreduce/lib/log4j-1.2.17.jar, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0063/filecache/10/job.jar/job.jar, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0063/filecache/10/job.jar/classes, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0063/filecache/10/job.jar/lib/*, file:/tmp/hadoop-ubuntu/nm-local-dir/usercache/ubuntu/appcache/application_1427088391284_0063/filecache/10/job.jar/]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:15,471",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.mr.ObjectCache",
+        "message": " Ignoring retrieval request: __REDUCE_PLAN__\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:15,478",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.log.PerfLogger",
+        "message": " <PERFLOG method=deserializePlan from=org.apache.hadoop.hive.ql.exec.Utilities>\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:15,478",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.Utilities",
+        "message": " Deserializing ReduceWork via kryo\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:16,630",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.log.PerfLogger",
+        "message": " </PERFLOG method=deserializePlan start=1427103915478 end=1427103916630 duration=1152 from=org.apache.hadoop.hive.ql.exec.Utilities>\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:16,631",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.mr.ObjectCache",
+        "message": " Ignoring cache key: __REDUCE_PLAN__\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:16,962",
+        "type": "INFO",
+        "app": "[main] ExecReducer",
+        "message": " \n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:16,962",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " Initializing Self GBY[0]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,009",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " Operator 0 GBY initialized\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,009",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " Initializing children of 0 GBY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,009",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " Initializing child 1 FS\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,009",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " Initializing Self FS[1]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,009",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.conf.Configuration.deprecation",
+        "message": " mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,106",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " Using serializer : class org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe[[[B@395d85d7]:[sourceip, sumadrevenue]:[string, double]] and formatter : org.apache.hadoop.hive.ql.io.HiveSequenceFileOutputFormat@2afe03ad with compression\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,106",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.conf.Configuration.deprecation",
+        "message": " mapred.healthChecker.script.timeout is deprecated. Instead, use mapreduce.tasktracker.healthchecker.script.timeout\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,113",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " Operator 1 FS initialized\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,113",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " Initialization Done 1 FS\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,113",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " Initialization Done 0 GBY\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,186",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " Final Path: FS hdfs://172.31.17.135:8120/tmp/ubuntu/8723662d-1d85-4661-856e-51234ded753a/hive_2015-03-23_09-41-43_214_3830095574455686628-1/_tmp.-ext-10000/000043_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,187",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " Writing to temp file: FS hdfs://172.31.17.135:8120/tmp/ubuntu/8723662d-1d85-4661-856e-51234ded753a/hive_2015-03-23_09-41-43_214_3830095574455686628-1/_task_tmp.-ext-10000/_tmp.000043_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,187",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " New Final Path: FS hdfs://172.31.17.135:8120/tmp/ubuntu/8723662d-1d85-4661-856e-51234ded753a/hive_2015-03-23_09-41-43_214_3830095574455686628-1/_tmp.-ext-10000/000043_0\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,699",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.io.compress.zlib.ZlibFactory",
+        "message": " Successfully loaded & initialized native-zlib library\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,740",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.io.compress.CodecPool",
+        "message": " Got brand-new compressor [.deflate]\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,754",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " FS[1]: records written - 1\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,757",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " FS[1]: records written - 10\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:17,806",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " FS[1]: records written - 100\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:18,312",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " FS[1]: records written - 1000\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:24,926",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " FS[1]: records written - 10000\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:45:30,070",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " FS[1]: records written - 100000\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:46:13,085",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " FS[1]: records written - 1000000\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:46:15,244",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " 0 finished. closing... \n"
+    },
+    {
+        "timestamp": "2015-03-23 09:46:15,245",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " 1 finished. closing... \n"
+    },
+    {
+        "timestamp": "2015-03-23 09:46:15,245",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " FS[1]: records written - 1045604\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:46:15,311",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " RECORDS_OUT:1045604\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:46:15,311",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.FileSinkOperator",
+        "message": " 1 Close done\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:46:15,311",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.hive.ql.exec.GroupByOperator",
+        "message": " 0 Close done\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:46:15,312",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Task",
+        "message": " Task:attempt_1427088391284_0063_r_000043_0 is done. And is in the process of committing\n"
+    },
+    {
+        "timestamp": "2015-03-23 09:46:15,406",
+        "type": "INFO",
+        "app": "[main] org.apache.hadoop.mapred.Task",
+        "message": " Task 'attempt_1427088391284_0063_r_000043_0' done.\n"
+    }
+]

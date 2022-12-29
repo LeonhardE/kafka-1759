@@ -121,7 +121,7 @@ def test6():
 
 def test7():
     test_name = 'test7'
-    total_records = 10000
+    total_records = 1000000
     x = []
     yProduce = []
     yConsume = []
@@ -134,7 +134,7 @@ def test7():
     print(x, yProduce, yConsume)
     
     plt.clf()
-    plt.title('10000 records and 1 consumer')
+    plt.title(f'{total_records} records and 1 consumer')
     plt.xlabel('number of producers')
     plt.ylabel('time')
     plt.plot(x, yProduce, label='total time for producers')
@@ -157,7 +157,7 @@ def test8():
     print(x, yProduce, yConsume)
     
     plt.clf()
-    plt.title('10000 records and 1 producer')
+    plt.title(f'{total_records} records and 1 producer')
     plt.xlabel('number of consumers')
     plt.ylabel('time')
     plt.plot(x, yProduce, label='time for producer')
@@ -173,6 +173,6 @@ if __name__ == "__main__":
     #         pass
     # init_machines(len(hostnames))
     # test7()
-    test8()
+    test7()
     
 
