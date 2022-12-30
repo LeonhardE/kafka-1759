@@ -5,7 +5,7 @@ import time
 import matplotlib.pyplot as plt
 
 local_mode = False
-consumer_timeout_ms = 2000
+consumer_timeout_ms = 4000
 hostnames = [f'10.1.0.{i}' for i in range(2, 5)] + [f'10.1.0.{i}' for i in range(7, 23)]
 hostnames.remove('10.1.0.9')
 hostnames.remove('10.1.0.12')
@@ -90,7 +90,7 @@ class Tester:
     def consume(self, seq):
         res = self.run_script(seq, 'consumer_node').stdout
         print('this is consumer results', res)
-        self.consumers_time[seq - self.total_producers] = float(res)
+        self.consumers_time[seq - self.total_producers] = float(res[0])
 
    
 def test6():
@@ -99,7 +99,7 @@ def test6():
     x = []
     yProduce = []
     yConsume = []
-    while total_records < 10000:
+    while total_records < 100000:
         res = Tester(test_name, total_records, 1, 1).run()
         yProduce.append(sum(res[0]))
         yConsume.append(sum(res[1]))
@@ -121,7 +121,7 @@ def test6():
 
 def test7():
     test_name = 'test7'
-    total_records = 1000000
+    total_records = 500000
     x = []
     yProduce = []
     yConsume = []
@@ -171,8 +171,7 @@ if __name__ == "__main__":
     #         reinstall_repo(i)
     #     except:
     #         pass
-    # init_machines(len(hostnames))
-    # test7()
-    test7()
+    init_machines(len(hostnames))
+    test8()
     
 
